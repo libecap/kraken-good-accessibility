@@ -82,8 +82,7 @@ a:focus {
     border-color: #000;
   }
 
-  .masthead,
-  .footer {
+  .no-print {
     display: none;
   }
 
