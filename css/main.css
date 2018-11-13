@@ -3,6 +3,18 @@ html {
   color: #222;
 }
 
+
+a:focus {
+  outline: 6px solid #ff69b4;
+}
+
+#nav:focus,
+#main:focus,
+#contentinfo:focus,
+#book-end:focus {
+  outline: 6px solid #ff69b4;
+}
+
 .max-length {
   max-width: 42em;
 }
@@ -56,4 +68,20 @@ html {
 .chapter-copyright {
   border-bottom: 0;
   border-radius: 6px 6px 0 0;
+}
+
+@media print {
+
+  .inset-img,
+  .old-book-style :first-child::first-line,
+  .book-ends,
+  .chapter-ends {
+    color: #000;
+  }
+
+  .masthead,
+  .footer {
+    display: none;
+  }
+
 }
