@@ -71,15 +71,13 @@ a:focus {
 
 @media print {
 
-  .inset-img,
-  .old-book-style :first-child::first-line,
-  .book-ends,
-  .chapter-ends {
-    color: #000;
-  }
-
   .inset-img {
     border-color: #000;
+    border-radius: 6px;
+  }
+
+  .chapter-ends {
+    border: none;
   }
 
   .no-print {
