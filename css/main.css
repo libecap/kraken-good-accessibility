@@ -3,7 +3,6 @@ html {
   color: #222;
 }
 
-
 a:focus {
   outline: 6px solid #ff69b4;
 }
@@ -77,6 +76,10 @@ a:focus {
   .book-ends,
   .chapter-ends {
     color: #000;
+  }
+
+  .inset-img {
+    border-color: #000;
   }
 
   .masthead,
